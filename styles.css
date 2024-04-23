@@ -1,0 +1,200 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 20px;
+    overflow: hidden;
+}
+
+.logo img {
+    height: 50px;
+    display: block; 
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+}
+s
+  .logo {
+    left: 10%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .logo img {
+    /* width: auto; */
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 0px 0;
+  }
+  
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar img {
+    height: 50px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .nav-links li:last-child {
+    margin-right: 0;
+  }
+  
+  .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Form styles */
+  #employeeForm {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  
+  button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #555;
+  }
+  
+  /* Confirmation message styles */
+  #confirmationMessage {
+    display: none;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  /* Table styles */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  table th,
+  table td {
+    padding: 8px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+
+  
+  /* Additional styles for .container1 */
+  .container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto; /* Center horizontally */
+  }/* CSS for edit and delete buttons */
+button.edit-btn,
+button.delete-btn {
+  padding: 5px 10px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button.edit-btn {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  margin: 10px;
+}
+
+button.delete-btn {
+  background-color: #f44336; /* Red */
+  margin-left: 10px;
+  color: white;
+}
+
+  
